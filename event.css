@@ -9,8 +9,8 @@ body {
     min-height: 100vh;
     width: 100%;
     font-size: 16px;
-    background: #e7d7bc;
-    color: #7e3232;
+    background: #ccc2dc;
+    color: #2d2d2d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +30,7 @@ body {
     width: 320px;
     height: 570px;
     overflow: hidden;
-    background-color: #dec2a8;
+    background-color: #a08cd1;
     box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
@@ -56,7 +56,7 @@ body {
     position: relative;
     width: 100%;
     height: 400px;
-    background-color: rgba(187, 139, 109, 0.6);
+    background-color: rgba(114, 100, 168, 0.6);
     opacity: 0;
     transition: height linear 0.4s, opacity linear 0.2s;
 }
@@ -67,7 +67,7 @@ body {
 }
 
 .event-info {
-    background-color: #dec2a8;
+    background-color: #a08cd1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -77,7 +77,7 @@ body {
 
 .title,
 .price {
-    color: #7a2a18;
+    color: #2d2d2d;
     font-size: 1.5em;
     font-weight: bold;
     letter-spacing: 1px;
@@ -92,7 +92,7 @@ body {
 .separator {
     width: 20%;
     height: 6px;
-    background-color: #7a2a18;
+    background-color: #2d2d2d;
     margin-bottom: 16px;
 }
 
@@ -110,13 +110,13 @@ body {
 }
 
 .info i {
-    color: #7a2a18;
+    color: #ccc2dc;
     font-size: 1.1em;
     margin-right: 4px;
 }
 
 .info span {
-    color: #7a2a18;
+    color: #ccc2dc;
     font-weight: bolder;
 }
 
@@ -144,7 +144,7 @@ body {
 }
 
 .action:hover {
-    background-color: rgba(156, 51, 51, 0.2);
+    background-color: rgba(65, 18, 73, 0.2);
 }
 .img1{
     border-radius: 10px;
