@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ccc2dc;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.content1{
+    padding: 10px 30px 10px 30px;
+    background-color:#a08cd1;
+}
+h2{
+    text-align: center;
+}
+.book-img{
+    /*width: 10%;*/
+    padding: 20px;
+}
+.read-btn{
+    padding: 5px;
+    background-color: #f5f3fa;
+    color: black;
+    border: 1px solid #f5f3fa;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.read-btn:hover{
+    background-color: #7966a8;
+}
+.card{
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background-color: #a08cd1;
+    border-radius: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.icon {
+    margin: 10px 0;
+}
+
+.icon i {
+    color: #f0c700;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.useful{
+    text-align: center;
+}
+.yes-btn{
+    border: 1px solid rgb(15, 15, 15);
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 10px;
+}
+#contact-body{
+    background: #3b4558;
+}
