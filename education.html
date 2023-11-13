@@ -4,13 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education</title>
+    <!--Main CSS-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="multi dropdown.css">
+    <script src="index.js"></script>
     <link rel="stylesheet" href="style2.css">
-    <script src="https://kit.fontawesome.com/c25cabee86.js" crossorigin="anonymous"></script>
+    <!--AOS CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/e7261a9cb2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div clas="banner"></div>
-    <div class="content1"></div>
-    <h2>Education</h2>
+    <!--header-->
+    <ul class="main-navigation">
+        <!--Logo-->
+        <li class="logo-img"><a href="index.html"><img src="Images/ICON.png" alt="logo"></a></li>
+        <!--About Us-->
+              <li class="topic"><a href="about-us.html"><i class="fa-solid fa-address-card"></i>&nbsp;About Us&nbsp;<i class="fa-solid fa-angle-down"></i></a>
+                <ul style="width: 136px;">
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="FAQs.html">FAQs</a></li>
+                </ul>
+              </li>
+        <!--Book-->
+                <li class="topic"><a href="#"><i class="fa-solid fa-book"></i>&nbsp;Book&nbsp;<i class="fa-solid fa-angle-down"></i></a>
+                  <ul style="width: 105px;">
+                    <li><a href="fiction.html">Fiction</a></li>
+                    <li><a href="nonfiction.html">Nonfiction</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="shortstories.html">Short Story</a></li>
+                    <li><a href="comic.html">Comic &nbsp;<i class="fa-solid fa-angle-right"></i></a>
+                      <ul>
+                        <li><a href="manga.html">Manga</a></li>
+                        <li><a href="manhua.html">Manhua</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+        <!--Studytool-->
+                <li class="topic"><a href="studytool.html"><i class="fa-solid fa-screwdriver-wrench"></i>&nbsp;Studytool&nbsp;<i class="fa-solid fa-angle-down"></i></a>
+                  <ul style="width: 138px;">
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Timetable</a></li>
+                    <li><a href="#">Timer</a></li>
+                    <li><a href="#">Game</a></li>
+                  </ul>
+                </li>
+        <!--Event-->
+                <li class="topic"><a href="event.html"><i class="fa-solid fa-calendar-days"></i>&nbsp;Event</a></li>
+        <!--Light and Dark Mode-->
+                <li class="topic"><a href="#" onclick="myFunction()"><i class="fa-solid fa-moon"></i>&nbsp;Dark Mode</a></li>
+        <!--Setting-->
+                <li class="setting"><a href="#"><i class="fa-solid fa-gear"></i>&nbsp;Setting&nbsp;<i class="fa-solid fa-angle-down"></i></a>
+                <ul style="width: 110px;">
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="signup.html">Sign up</a></li>
+                </ul>
+              </li>
+              </ul>
+
+    <h2 class="book-h2">Education</h2>
     <div class="row">
         <div class="card">
             <img src="education/book3.webp" alt="Building a second brain" class="book-img" width="200" height="300">
@@ -128,6 +181,55 @@
         <a href="#" class="yes-btn">Yes</a>
         <a href="#" class="yes-btn">No</a>
     </div>
-   <div class="footer"></div>
+
+
+<!--Footer-->
+<div class="footer">
+    <br>
+  
+  <div class="Information">
+    <div class="info1">
+      <h3>Information</h3><br>
+      <a href="about-us.html">About Us</a><br>
+      <a href="contact-us.html">Contacts</a><br>
+      <a href="FAQs.html">FAQs</a><br>
+      <a href="#">Help</a><br>
+      <a href="event.html">Events</a><br>
+    </div>
+    <div class="info2"><br><br>
+        <a href="fiction.html">Fiction</a><br>
+        <a href="nonfiction.html">NonFiction</a><br>
+        <a href="education.html">Education</a><br>
+        <a href="shortstories.html">Short story</a><br>
+        <a href="#">Comic</a><br>
+    </div>
+    <div class="info3"><br><br>
+          <a href="music.html">Music</a><br>
+          <a href="#">Timetable</a><br>
+          <a href="#">Timer</a><br>
+          <a href="#">Game</a><br>
+    </div>
+  </div>
+  
+      
+     <div class="link-website">
+         <h3>Design Credit to</h3><br><br>
+         <a href="https://www.chipublib.org" target="_blank">
+             Chicago Public Library - https://www.chipublib.org</a> <br><br><br><br>
+     </div>
+  
+     <div class="newsletter">
+      <h3>Newsletter</h3><br>
+      <p>Subcribe to our newsletter for a weekly <br>dose of comics and novels.</p>
+      <form action="">
+        <input type="email" placeholder="&nbsp;Your email">
+        <input type="submit" value="Subcribe">
+      </form>
+     </div>    
+  </div>
+  <div class="copyright"> 
+     <p> © Cheshire Cafe. All rights Reserved. </p>
+  </div>
+
 </body>
 </html>

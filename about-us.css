@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f5f3fa;
+}
+.container1{
+    width:100%;
+    display:flex; 
+    justify-content: space-around ;
+    align-items: center;
+    background-color: #f5f3fa;
+    color: black;
+    height: 400px;
+    padding:0 50px 0 20px;
+}
+.content1-section{
+    margin:5 5px ;
+    width: 70%;
+    padding: 0;
+}
+.image-section1{
+    padding: 0 0 0 50px;
+    width:35%;
+}
+.image-section1 img{
+    padding-left: 50px;
+    width: 300px;
+    height:300px;
+} 
+.content1-section h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.container2{
+    padding: 60px 0 20px 0;
+    background-color: #f5f3fa;
+}
+.container2 fieldset{
+      justify-content: center;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      max-width: 95%;
+      margin: auto;
+      padding: 80px 15px 65px 15px;
+      box-shadow: 0 10px 40px rgba(149,157,165,.2);
+      border-radius: 20px;
+      background-color: #ccc2dc;
+  }
+.container2 .row img {
+    background-image: linear-gradient(to top right,#ffffff,#ffa24d);
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    padding: 10 0;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 10%;
+    top: -60px;
+    left: 60px;
+    pointer-events: none;
+}
+.container2 legend{
+    width: 100px;
+    height: 30px;
+    padding: 2px;
+    margin-left: calc(50% - 35px - 8px);
+}
+
+.container3{
+    width:100%;
+    display:flex; 
+    justify-content: space-around ;
+    align-items: center;
+    background-color: #f5f3fa;
+    color: black;
+    height: 400px;
+    padding: 0 50px;
+}
+.content3-section{
+    margin-left: 70px;
+    width: 70%;
+    padding: 0;
+}
+.image-section3{
+    padding: 0 0 0 50px;
+    width:35%;
+}
+.image-section3 img{
+    width: 300px;
+    height:300px;
+} 
+.content3-section h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        padding: 2em 5em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section {
+        padding: 2em;
+    }
+    .card {
+        padding: 4em 2em;
+    }
+    .column {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 0 1em;
+    }
+}
+
+
+/*light and dark mode */
+.dark-mode .container1{
+    background-color: #242833;
+    color: #f4f8fb;
+}
+.dark-mode .container2{
+    background-color: #242833;
+    color: #f4f8fb;
+}
+.dark-mode .container2 fieldset{
+    background-color: #825ea6;
+}
+.dark-mode .container3{
+    background-color: #242833;
+    color: #f4f8fb;
+}

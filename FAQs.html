@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs</title>
+    <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!--Bootstrap Icon CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--Main CSS-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="multi dropdown.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="FAQs.css">
+    <!--AOS CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/e7261a9cb2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--header-->
+    <ul class="main-navigation">
+        <!--Logo-->
+        <li class="logo-img"><a href="index.html"><img src="Images/ICON.png" alt="logo"></a></li>
+        <!--About Us-->
+              <li class="topic"><a href="about-us.html"><i class="fa-solid fa-address-card"></i>&nbsp;About Us&nbsp;<i class="fa-solid fa-angle-down"></i></a>
+                <ul style="width: 136px;">
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="FAQs.html">FAQs</a></li>
+                </ul>
+              </li>
+        <!--Book-->
+                <li class="topic"><a href="#"><i class="fa-solid fa-book"></i>&nbsp;Book&nbsp;<i class="fa-solid fa-angle-down"></i></a>
+                  <ul style="width: 105px;">
+                    <li><a href="fiction.html">Fiction</a></li>
+                    <li><a href="nonfiction.html">Nonfiction</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="shortstories.html">Short Story</a></li>
+                    <li><a href="comic.html">Comic &nbsp;<i class="fa-solid fa-angle-right"></i></a>
+                      <ul>
+                        <li><a href="manga.html">Manga</a></li>
+                        <li><a href="manhua.html">Manhua</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+        <!--Studytool-->
+                <li class="topic"><a href="studytool.html"><i class="fa-solid fa-screwdriver-wrench"></i>&nbsp;Studytool&nbsp;<i class="fa-solid fa-angle-down"></i></a>
+                  <ul style="width: 138px;">
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Timetable</a></li>
+                    <li><a href="#">Timer</a></li>
+                    <li><a href="#">Game</a></li>
+                  </ul>
+                </li>
+        <!--Event-->
+                <li class="topic"><a href="event.html"><i class="fa-solid fa-calendar-days"></i>&nbsp;Event</a></li>
+        <!--Light and Dark Mode-->
+                <li class="topic"><a href="#" onclick="myFunction()"><i class="fa-solid fa-moon"></i>&nbsp;Dark Mode</a></li>
+        <!--Setting-->
+                <li class="setting"><a href="#"><i class="fa-solid fa-gear"></i>&nbsp;Setting&nbsp;<i class="fa-solid fa-angle-down"></i></a>
+                <ul style="width: 110px;">
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="signup.html">Sign up</a></li>
+                </ul>
+              </li>
+              </ul>
+
+<!--FAQs-->
+    <div class="container mt-3">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-10">
+                <div class="accordion" id="accordion">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header border border-0">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Myaccordion1">
+                                What can we get from using this website?
+                            </button>
+                        </h3>
+                        <div class="collapse accordion-collapse" id="Myaccordion1">
+                            <div class="accordion-body">
+                                <p>You can read the books, study with timetables and use a timer. If you are bored you can also play games.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header border border-0">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Myaccordion2">
+                                What benefits can we get from reading this website?
+                            </button>
+                        </h3>
+                        <div class="collapse accordion-collapse" id="Myaccordion2">
+                            <div class="accordion-body">
+                                <p>This website can benefit for reading time. If you are having difficulties about reading or studying.
+                                    Our website can help with people who are making time for reading. You can set the timer and read as long as you want. 
+                                    It helps people learn more vocabulary and increase your knowledge.It mostly help people with a lot of screentime who plays too much games and on social.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header border border-0">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Myaccordion3">
+                                Can this website help our education and studies?
+                            </button>
+                        </h3>
+                        <div class="collapse accordion-collapse" id="Myaccordion3">
+                            <div class="accordion-body">
+                                <p>This website can help people increase their knowledge by giving their time on books.It has a timer so you can study as long as you want.It makes people focus on their studies too.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header border border-0">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Myaccordion4">
+                                Can using the timetable make it better for reading on this website?
+                            </button>
+                        </h3>
+                        <div class="collapse accordion-collapse" id="Myaccordion4">
+                            <div class="accordion-body">
+                                <p>Timetables are good for reading because we can make enough time using this website. 
+                                    It can increase your reading level.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header border border-0">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Myaccordion5">
+                                What is the difference between this website and public library?
+                            </button>
+                        </h3>
+                        <div class="collapse accordion-collapse" id="Myaccordion5">
+                            <div class="accordion-body">
+                                <p>This website has your own privacy, you can set out your schedule and timetable. 
+                                    You can set your own timer and bookmarks. Both of the places can read books but this website is easier to read. 
+                                    You can play games when you get enough of reading. 
+                                    It is helpful for people who love to read and play games at the same time.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header border border-0">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Myaccordion6">
+                                How can we help to reduce stress on this website?
+                            </button>
+                        </h3>
+                        <div class="collapse accordion-collapse" id="Myaccordion6">
+                            <div class="accordion-body">
+                                <p>We can help reduce stress by reading books and taking your mind off things. 
+                                    We can open music to relax while reading on this website. 
+                                    There are games to play when you are bored too.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header border border-0">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Myaccordion7">
+                                What kind of things do we recommend from our website?
+                            </button>
+                        </h3>
+                        <div class="collapse accordion-collapse" id="Myaccordion7">
+                            <div class="accordion-body">
+                                <p> We would recommend setting up the timer while reading or playing games so you know how many hours you use on the website.You can set up all the timetables for the website too.                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header border border-0">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Myaccordion8">
+                                Is there any age limit on our website?
+                            </button>
+                        </h3>
+                        <div class="collapse accordion-collapse" id="Myaccordion8">
+                            <div class="accordion-body">
+                                <p>No, there isn’t any limit,every age can read and play games on our website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header border border-0">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Myaccordion9">
+                                How can we help young kids to read books on our website?
+                            </button>
+                        </h3>
+                        <div class="collapse accordion-collapse" id="Myaccordion9">
+                            <div class="accordion-body">
+                                <p>There are many types of books that kids love.they can start from a young age to read.it can help their reading skills.our website has games so the kids can play.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header border border-0">
+                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#Myaccordion10">
+                                Can you request any books you want to read on our website?
+                            </button>
+                        </h3>
+                        <div class="collapse accordion-collapse" id="Myaccordion10">
+                            <div class="accordion-body">
+                                <p>Yes you can,we can add more books that you want to read.You can enjoy our website and we will be adding more new contents and books.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+<div class="space1"></div>
+<!--Footer-->
+<div class="footer">
+    <br>
+  
+  <div class="Information">
+    <div class="info1">
+      <h3>Information</h3><br>
+      <a href="about-us.html">About Us</a><br>
+      <a href="contact-us.html">Contacts</a><br>
+      <a href="FAQs.html">FAQs</a><br>
+      <a href="#">Help</a><br>
+      <a href="event.html">Events</a><br>
+    </div>
+    <div class="info2"><br><br><br>
+        <a href="fiction.html">Fiction</a><br>
+        <a href="nonfiction.html">NonFiction</a><br>
+        <a href="education.html">Education</a><br>
+        <a href="shortstories.html">Short story</a><br>
+        <a href="#">Comic</a><br>
+    </div>
+    <div class="info3"><br><br><br>
+          <a href="music.html">Music</a><br>
+          <a href="#">Timetable</a><br>
+          <a href="#">Timer</a><br>
+          <a href="#">Game</a><br>
+    </div>
+  </div>
+  
+      
+     <div class="link-website">
+         <h3>Design Credit to</h3><br><br>
+         <a href="https://www.chipublib.org" target="_blank">
+             Chicago Public Library - https://www.chipublib.org</a> <br><br><br><br>
+     </div>
+  
+     <div class="newsletter">
+      <h3>Newsletter</h3><br>
+      <p>Subcribe to our newsletter for a weekly <br>dose of comics and novels.</p>
+      <form action="">
+        <input type="email" placeholder="&nbsp;Your email">
+        <input type="submit" value="Subcribe">
+      </form>
+     </div>    
+  </div>
+  <div class="copyright"> 
+     <p> © Cheshire Cafe. All rights Reserved. </p>
+  </div>   
+
+  <!--script-->
+
+</body>
+</html>

@@ -1,0 +1,268 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+/*header css - multi dropdown.css*/
+
+/*Our Aim*/
+.Our-aim{
+  background-color: #F5F3FA;
+  text-align: center;
+  padding: 40px 0;
+}
+
+/*Famous Book*/
+.famous-book{
+  height: 580px;
+  width: 100%;
+  background-color: #F5F3FA;
+}
+.famous-book h2{
+  text-align: center;
+  padding: 10px 0;
+}
+.famous-book-column{
+  float: left;
+  width: 30%;
+  background-color: #ccc2dc;
+}
+.famous-book-column h4{
+  text-align: center;
+}
+.famous-book-column img{
+  width: 80%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.famous-book-column div{
+  padding: 25px 0;
+  background-color: #a08cd1;
+}
+.famous-book-column a{
+  padding: 15px 25px;
+  margin-left: 103px;
+  border: 35px ;
+  border-radius: 20px;
+  background-color: #fff;
+  text-decoration: none;
+  color: black;
+}
+.column-space{
+  width: 3.33%;
+  background-color: #F5F3FA;
+}
+
+/*Study Tool*/
+.studytool{
+  background-color: #F5F3FA;
+}
+.studytool img{
+  padding: 0 54px;
+  width: 35%;
+  float: left;
+}
+.studytool-half{
+  padding: 80px 50px;
+  text-align: center;
+}
+
+/*Event*/
+.event{
+  padding: 20px 0;
+  height: 200px;
+  width: 100%;
+  background-color: #F5F3FA;
+}
+.event-passage{
+  float: left;
+  padding-left: 50px;
+  width: 50%;
+}
+.event-passage hr{
+  margin-top: 0;
+  border-top: 5px solid black;
+  width: 100px;
+}
+.event-passage h4{
+  padding-right: 100px;
+  text-align: left;
+}
+.event-img{
+  float: right;
+  width:50%
+}
+.event-img img{
+  margin: 10px 40px;
+  width: 150px;
+  height: 150px;
+}
+
+
+
+
+
+/*Footer css*/
+.footer{
+  padding: 0;
+  background-color: #a08cd1 ;
+  width: 100%;
+  height: 250px;
+}
+
+.Information{
+  width: 45%;
+  float: left;
+  background-color: #a08cd1;
+}
+.Information a{
+  text-decoration: none;
+  color: black;
+}
+.Information a:hover{
+  color: white;
+}
+.info1{
+  width: 33.33%;
+  float: left;
+  text-align: left;
+  background-color: #a08cd1;
+}
+.info1 h2{
+  text-align: left;
+  padding-left: 5px;
+}
+.info1 a{
+  padding-left: 20px;
+}
+.info2{
+  width: 33.33%;
+  float: left;
+  text-align: left;  
+  background-color: #a08cd1;
+}
+.info3{
+    width: 33.33%;
+    float: left;
+    text-align: left;
+    background-color: #a08cd1;
+}
+
+.link-website{
+  width: 20%;
+  float: left;
+  text-align: left;
+  background-color: #a08cd1;
+}
+.link-website h3{
+  color: black;
+  padding-left: 5px;
+}
+.link-website a{
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+.link-website a:hover{
+  color: white;
+}
+
+
+.newsletter{
+  width: 30%;
+  float: right;
+  text-align: left;
+}
+.copyright{
+  padding: 0;
+  height: 10px;
+  text-align: center;
+}
+
+.space1{
+  height: 60px;
+  background-color: #F5F3FA;
+}
+.space2{
+  height: 60px;
+  background-color: #a08cd1;
+}
+
+/*light mode dark mode*/
+
+/*our aim*/
+.dark-mode .Our-aim{
+  background-color: #242833;
+  color: #f4f8fb;
+}
+
+/*famous book*/
+.dark-mode .famous-book{
+  background-color: #242833;
+  color: #f4f8fb;
+}
+.dark-mode .famous-book-column{
+  background-color: #f4f8fb;
+  color: #242833;
+}
+.dark-mode .famous-book-column div{
+  background-color: #825ea6;
+}
+
+/*study tool*/
+.dark-mode .studytool{
+  background-color: #242833;
+  color: #f4f8fb;
+}
+
+/*event*/
+.dark-mode .event{
+  background-color: #242833;
+  color: #f4f8fb;
+}
+.dark-mode .event-passage hr{
+  border-top: 5px solid #f4f8fb;
+}
+
+
+/*footer*/
+.dark-mode .footer{
+  background-color: #825ea6;
+}
+.dark-mode .Information{
+  background-color: #825ea6;
+}
+.dark-mode .info1{
+  background-color: #825ea6;
+}
+.dark-mode .info2{
+  background-color: #825ea6;
+}
+.dark-mode .info3{
+  background-color: #825ea6;
+}
+.dark-mode .link-website{
+  background-color: #825ea6;
+}
+.dark-mode .footer{
+  color: #f4f8fb;
+}
+.dark-mode .Information a{
+  color: #f4f8fb;
+}
+.dark-mode .Information a:hover{
+  color: #242833;
+}
+.dark-mode .link-website h3{
+  color: #f4f8fb;
+}
+.dark-mode .link-website a{
+  color: #f4f8fb;
+}
+.dark-mode a:hover{
+  color: #242833;
+}
+
+.dark-mode .space2{
+  background-color: #825ea6;
+}

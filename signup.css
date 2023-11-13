@@ -1,87 +1,69 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
-body {
-    font-family: 'Lora', serif;
-    background-color: #ccc2dc;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
+    
 .container {
     background: #ccc2dc;
-    border: 3px solid #896fca;
+    border: 3px solid #a08cd1;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 300px; /* Reduced max-width */
+    padding: 30px;
+    width: 300px;
     text-align: center;
+    font-family: 'Lora', serif;
+    background: url(Images/bg.jpg) no-repeat;
+    margin: auto;
+    margin-top: 20px;
 }
 
-h1 {
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.h1 {
+    margin: 0 0 20px;
     color: #000000;
-    font-size: 20px; /* Smaller font size */
 }
 
 .input-group {
-    margin: 10px 0;
+    margin: 10px 5px;
     text-align: left;
     position: relative;
 }
 
-input {
-    width: 100%;
-    padding: 8px; /* Reduced padding */
-    border: 2px solid #896fca;
-    border-radius: 10px;
-    outline: none;
-    font-size: 14px;
-}
-
-.btn {
+.input-group input {
     width: 100%;
     padding: 10px;
-    border: 3px solid #896fca;
+    border: 3px solid  #a08cd1;
     border-radius: 20px;
     outline: none;
-    font-size: 16px; /* Smaller font size */
-    color: black;
+    background: fixed;
+    font-size: 15px;
+}
+.btn{
+    margin: 10px 5px;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #a08cd1;
+    border-radius: 20px;
+    outline: none;
+    background: fixed;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
 }
 
-.login {
+.index-link {
     margin-top: 10px;
     text-align: center;
 }
 
-.login p {
-    margin: 0;
-}
-
-.login a {
-    color: rgb(148, 148, 226);
+.index-link a {
+    color: #4e7bac;
     text-decoration: none;
-}
-@media (max-width: 900px) {
-    .container {
-        padding: 20px;
-    }
-    .btn {
-        font-size: 14px;
-    }
-}
-@media (min-width: 100px) {
-    .container {
-        max-width: 400px;
-        padding: 30px;
-    }
-    .btn {
-        font-size: 20px;
-    }
 }

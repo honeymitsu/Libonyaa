@@ -1,0 +1,18 @@
+body{
+    background-color: #f5f3fa;
+}
+.container .row .accordion-button{
+    background-color: #a08cd1;
+}
+.accordion-body{
+    background-color: #ccc2dc;
+}
+
+/* light and dark mode */
+.dark-mode body{
+    background-color: #242833;
+}
+.dark-mode .container .row .accordion-button{
+    color: #f5f3fa;
+    background-color: #825ea6;
+}

@@ -3,14 +3,71 @@
   <head>
     <meta charset="UTF-8">
    <title>Contact Us Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Main CSS-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="multi dropdown.css">
     <link rel="stylesheet" href="contact-us.css">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <!--AOS CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/e7261a9cb2.js" crossorigin="anonymous"></script>
    </head>
 <body>
+  <!--header-->
+  <ul class="main-navigation">
+    <!--Logo-->
+    <li class="logo-img"><a href="index.html"><img src="Images/ICON.png" alt="logo"></a></li>
+    <!--About Us-->
+          <li class="topic"><a href="#"><i class="fa-solid fa-address-card"></i>&nbsp;About Us&nbsp;<i class="fa-solid fa-angle-down"></i></a>
+            <ul style="width: 136px;">
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+            </ul>
+          </li>
+    <!--Book-->
+            <li class="topic"><a href="#"><i class="fa-solid fa-book"></i>&nbsp;Book&nbsp;<i class="fa-solid fa-angle-down"></i></a>
+              <ul style="width: 105px;">
+                <li><a href="fiction.html">Fiction</a></li>
+                <li><a href="nonfiction.html">Nonfiction</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="shortstories.html">Short Story</a></li>
+                <li><a href="comic.html">Comic &nbsp;<i class="fa-solid fa-angle-right"></i></a>
+                  <ul>
+                    <li><a href="manga.html">Manga</a></li>
+                    <li><a href="manhua.html">Manhua</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+    <!--Studytool-->
+            <li class="topic"><a href="studytool.html"><i class="fa-solid fa-screwdriver-wrench"></i>&nbsp;Studytool&nbsp;<i class="fa-solid fa-angle-down"></i></a>
+              <ul style="width: 138px;">
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Timetable</a></li>
+                <li><a href="#">Timer</a></li>
+                <li><a href="#">Game</a></li>
+              </ul>
+            </li>
+    <!--Event-->
+            <li class="topic"><a href="event.html"><i class="fa-solid fa-calendar-days"></i>&nbsp;Event</a></li>
+    <!--Light and Dark Mode-->
+            <li class="topic"><a href="#" onclick="myFunction()"><i class="fa-solid fa-moon"></i>&nbsp;Dark Mode</a></li>
+    <!--Setting-->
+            <li class="setting"><a href="#"><i class="fa-solid fa-gear"></i>&nbsp;Setting&nbsp;<i class="fa-solid fa-angle-down"></i></a>
+            <ul style="width: 110px;">
+              <li><a href="login.html">Login</a></li>
+              <li><a href="signup.html">Sign up</a></li>
+            </ul>
+          </li>
+          </ul>
+
+  <!--body-->
   <div class="container">
     <div class="content">
       <div class="image-box">
-       <img src="Images/purple-book.jpg" alt="" height="500">
+       <img src="Images/purple-book.png" alt="" height="500">
       </div>
     <form action="#">
       <div class="topic">Contact Us!</div>
@@ -19,7 +76,7 @@
         <label>Full name...</label>
       </div>
       <div class="input-box">
-        <input type="text" required>
+        <input type="email" required>
         <label>Email...</label>
       </div>
       <div class="message-box"><textarea class="form-control" name="message-box"></textarea>
@@ -29,7 +86,7 @@
         <input type="submit" value="Contact us now!!">
       </div>
     </form>
-  </div>
+    </div>
   </div>
 </body>
 </html>

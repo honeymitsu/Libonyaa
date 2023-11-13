@@ -6,7 +6,6 @@
 
 body {
     background-color: #ccc2dc;
-    font-family: 'Poppins', sans-serif;
     transition: background-color 0.3s;
 }
 .content1 {
@@ -65,6 +64,7 @@ h2 {
 }
 
 .useful {
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -75,7 +75,9 @@ h2 {
     padding: 10px;
     display: inline-block; 
 }
-
+.book-h2{
+    padding-top: 10px;
+}
 @media screen and (max-width: 640px) {
     .card {
         flex: 0 0 calc(45% - 20px);
@@ -111,4 +113,43 @@ h2 {
     .yes-btn {
         font-size: 14px; 
     }
+}
+
+
+/*dark and light mode*/
+.dark-mode body{
+    background-color: #242833;
+    color: #f5f3fa;
+}
+.dark-mode .content1{
+    background-color: #242833;
+    color: #f5f3fa;
+}
+.dark-mode .read-btn{
+    background-color: #ccc2dc;
+}
+.dark-mode .read-btn:hover{
+    background-color: #a08cd1;
+}
+.dark-mode .card{
+    background-color: #825ea6;
+    color: #f5f3fa;
+}
+.dark-mode .book-h2{
+    background-color: #242833;
+    color: #f5f3fa;
+}
+.dark-mode .row{
+    background-color: #242833;
+    color: #f5f3fa;
+}
+.dark-mode .useful{
+    background-color: #242833;
+    color: #f5f3fa;
+}
+.dark-mode .yes-btn{
+    color: #f5f3fa;
+}
+.dark-mode .yes-btn:hover{
+    color: #ccc2dc;
 }
