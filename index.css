@@ -31,6 +31,7 @@
 }
 .famous-book-column img{
   width: 80%;
+  height: 300px;
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -56,6 +57,7 @@
 /*Study Tool*/
 .studytool{
   background-color: #F5F3FA;
+  margin-top: 20px;
 }
 .studytool img{
   padding: 0 54px;

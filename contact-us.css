@@ -29,7 +29,7 @@ body::before{
   width: 100%;
   background: #fff;
   border-radius: 12px;
-  margin: 0 20px;
+  margin: 40px 115px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 .container .content{
@@ -45,7 +45,7 @@ body::before{
   width: 100%;
   border-radius: 10px;
 }
-.content .topic{
+.content .topic-contact{
   font-size: 22px;
   font-weight: 500;
   color: #000;
@@ -159,4 +159,41 @@ body::before{
     width: 100%;
     margin-left: 30px;
   }
+}
+
+
+/*dark and light mode*/
+.dark-mode .container{
+  background-color: #825ea6;
+}
+.dark-mode .topic-contact{
+  color: #f4f8fb;
+}
+.dark-mode .content .input-box input{
+  background-color: #ccc2dc;
+}
+.dark-mode .content .input-box label{
+  color: #000;
+}
+.dark-mode .content .input-box input:focus ~ label,
+.content .input-box input:valid ~ label{
+  background-color: #825ea6;
+  color: #ccc2dc;
+}
+.dark-mode .content .message-box label{
+  color: #000;
+}
+.dark-mode .content .message-box textarea:focus ~ label{
+  background-color: #825ea6;
+  color: #ccc2dc;
+}
+.dark-mode .input-box textarea:focus ~ label{
+  background-color: #825ea6;
+  color: #ccc2dc;
+}
+.dark-mode .content .input-box input[type="submit"]{
+  background-color: #9481c2;
+}
+.dark-mode .content .input-box input[type="submit"]:hover{
+  background-color: #a08cd1;
 }

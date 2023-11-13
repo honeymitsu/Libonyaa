@@ -97,3 +97,8 @@
 .todo-app ul li span:hover{
     background: #edeef0;
 }
+
+/*dark and light mode*/
+.dark-mode .box{
+    background-color: #232833;
+}

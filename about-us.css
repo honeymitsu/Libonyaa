@@ -71,6 +71,10 @@ body {
     padding: 2px;
     margin-left: calc(50% - 35px - 8px);
 }
+.icons{
+    font-size: 30px;
+    color: lightskyblue;
+}
 
 .container3{
     width:100%;

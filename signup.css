@@ -2,19 +2,20 @@
     margin: 0;
     padding: 0;
 }
-    
+ 
 .container {
     background: #ccc2dc;
     border: 3px solid #a08cd1;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 30px;
+    padding: 20px;
     width: 300px;
     text-align: center;
     font-family: 'Lora', serif;
     background: url(Images/bg.jpg) no-repeat;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .sign-up-form {
@@ -66,4 +67,20 @@
 .index-link a {
     color: #4e7bac;
     text-decoration: none;
+}
+
+/*dark and light mode*/
+.dark-mode .container{
+    background-color: #242833;
+    border: 3px solid #f4f8fb;
+    color: #f4f8fb;
+}
+.dark-mode .btn{
+    color: #f4f8fb;
+}
+.dark-mode .input-group a{
+    color: #ccc2dc;
+}
+.dark-mode .input-group a:hover{
+    color: #825ae6;
 }
